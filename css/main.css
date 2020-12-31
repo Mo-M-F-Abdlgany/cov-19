@@ -1,0 +1,75 @@
+body{
+    background-color: #08428c;
+    padding: 0px;
+    margin: 0px
+}
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 10px; /* Place the button at the bottom of the page */
+  right: 10px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+.text-brown{    color: #856404!important;}
+.Circle {
+    display: block;
+/*    padding:4.5rem 1rem;
+    font-size: 2.25rem;
+    font-weight: 900;
+    line-height: 0.5;
+    border-radius: 50%;
+    text-align: center;
+    
+    background-color: #feffff;*/
+    overflow: hidden;
+    /*STAK ANSER  */
+/*    width: 500px;
+    height: 500PX;
+    line-height: 500px;'
+    border-radius: 50% ;*/
+    font-size: 50px;
+    text-align: center;
+    background-color: #feffff;
+    border-radius: 50%;
+    color:red;
+
+
+
+    }
+.Circle-caption{
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+@media(min-width:786px) {
+    .col-md-d-flex {
+display: flex;
+    }
+}
+@media(min-width:786px) {
+    .col-lg-w-100{
+width: 100%;
+    }
+
+.Circle-caption{
+    padding-right: 4rem;
+}
+.Circle{padding: 6.5rem 0rem;
+}
+}
+@media(min-width:786px) {
+        .heald-styel {
+    text-align: -webkit-center;
+    padding-left: 20%;
+    padding-right: 0px;
+
+}
+
+.heald-styel{ text-align: -webkit-center; }

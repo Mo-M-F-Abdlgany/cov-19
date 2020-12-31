@@ -1,0 +1,58 @@
+body
+{
+    background-color: #08428c;
+
+}
+#myBtn 
+{
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 10px; /* Place the button at the bottom of the page */
+  right: 10px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+.row{
+  width: 100%
+}
+.circle {
+  background: #feffff;
+  color: red;
+  width: 200px; 
+  height: 200px;
+  border-radius: 50%;
+  font-size: 2.25rem;
+  display: flex; /* or inline-flex */
+  align-items: center; 
+  justify-content: center;
+  font-weight: bold;
+}
+.pr-6
+{    
+  padding-right: 4rem!important;
+}
+.Circle-caption
+{    
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 900;
+    padding: 7px 24px 5px 0px;
+  }
+
+/*@media(max-width: 1200px){
+.lg-caption{    
+    margin-right: 25%;
+    width: 50%;}
+}*/
+@media (min-width: 992px){.lg-caption{    
+    margin-right: 25%;
+    width: 50%;}
+}}
+
+
